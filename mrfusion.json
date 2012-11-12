@@ -1,0 +1,5 @@
+{
+	"name" 	: "mrfusion",
+	"dir" 	: [{ "a" 			: [ "css", "images", "js" ] },
+						{ "a/libs" 	: [ "jqplugins" , "jquery" ] }]
+}
