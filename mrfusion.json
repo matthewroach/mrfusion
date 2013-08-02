@@ -1,5 +1,14 @@
 {
 	"name" 	: "mrfusion",
-	"dir" 	: [{ "a" 			: [ "css", "images", "js" ] },
-						{ "a/libs" 	: [ "jqplugins" , "jquery" ] }]
+
+	"dir" 	: [
+							{ "a" 			: [ "css", "img", "js" ] },
+							{ "a/src" 	:	[ "css", "img" ] },
+							{ "a/src/js": [ "libs" ] }
+						],
+
+	"libs"	: [
+							{ "a/src/css" : "http://meyerweb.com/eric/tools/css/reset/reset.css" },
+							{ "a/src/js/libs" : "http://code.jquery.com/jquery.js" }
+						]
 }
